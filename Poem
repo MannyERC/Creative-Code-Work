@@ -1,0 +1,303 @@
+{
+	"boxes" : [ 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Surround yourself with people who care about you.",
+				"linecount" : 3,
+				"presentation_linecount" : 9,
+				"numoutlets" : 1,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"patching_rect" : [ 775.5, 270.999999523162842, 105.100013196468353, 50.0 ],
+				"id" : "obj-9",
+				"numinlets" : 2,
+				"fontsize" : 12.0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Don't put things off for too long.",
+				"presentation_linecount" : 6,
+				"numoutlets" : 1,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"patching_rect" : [ 598.5, 270.999999523162842, 175.0, 22.0 ],
+				"id" : "obj-4",
+				"numinlets" : 2,
+				"fontsize" : 12.0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Enjoy the little things in your everyday.",
+				"presentation_linecount" : 6,
+				"numoutlets" : 1,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"patching_rect" : [ 384.5, 270.999999523162842, 212.0, 22.0 ],
+				"id" : "obj-3",
+				"numinlets" : 2,
+				"fontsize" : 12.0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Give yourself more credit.",
+				"presentation_linecount" : 4,
+				"numoutlets" : 1,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"patching_rect" : [ 237.799996614456177, 270.999999523162842, 145.0, 22.0 ],
+				"id" : "obj-2",
+				"numinlets" : 2,
+				"fontsize" : 12.0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "random 5",
+				"numoutlets" : 1,
+				"outlettype" : [ "int" ],
+				"fontname" : "Arial",
+				"patching_rect" : [ 228.199997901916504, 134.199999928474426, 59.0, 22.0 ],
+				"id" : "obj-21",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "counter 2 1 5",
+				"numoutlets" : 4,
+				"outlettype" : [ "int", "", "", "int" ],
+				"fontname" : "Arial",
+				"patching_rect" : [ 72.399994254112244, 182.599999308586121, 79.0, 22.0 ],
+				"id" : "obj-6",
+				"numinlets" : 5,
+				"fontsize" : 12.0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "number",
+				"parameter_enable" : 0,
+				"numoutlets" : 2,
+				"outlettype" : [ "", "bang" ],
+				"fontname" : "Arial",
+				"patching_rect" : [ 137.999995529651642, 58.19999635219574, 53.0, 22.0 ],
+				"id" : "obj-13",
+				"numinlets" : 1,
+				"fontsize" : 12.0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "print Here_is_some_quick_advice:",
+				"numoutlets" : 0,
+				"fontname" : "Arial",
+				"patching_rect" : [ 63.399994015693665, 461.40000182390213, 192.0, 22.0 ],
+				"id" : "obj-5",
+				"numinlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "metro 3000",
+				"numoutlets" : 1,
+				"outlettype" : [ "bang" ],
+				"fontname" : "Arial",
+				"patching_rect" : [ 72.399999856948853, 134.199999928474426, 69.0, 22.0 ],
+				"id" : "obj-8",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Try and relax. Life is too short.",
+				"presentation_linecount" : 5,
+				"numoutlets" : 1,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"patching_rect" : [ 63.399994015693665, 270.999999523162842, 169.0, 22.0 ],
+				"id" : "obj-15",
+				"numinlets" : 2,
+				"fontsize" : 12.0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "button",
+				"parameter_enable" : 0,
+				"numoutlets" : 1,
+				"outlettype" : [ "bang" ],
+				"patching_rect" : [ 63.399994015693665, 78.999998927116394, 24.0, 24.0 ],
+				"id" : "obj-25",
+				"numinlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "toggle",
+				"parameter_enable" : 0,
+				"numoutlets" : 1,
+				"outlettype" : [ "int" ],
+				"patching_rect" : [ 23.399994850158691, 137.800000786781311, 24.0, 24.0 ],
+				"id" : "obj-7",
+				"numinlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "sel 1 2 3 4 5",
+				"numoutlets" : 6,
+				"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
+				"patching_rect" : [ 72.399994254112244, 222.599999904632568, 74.0, 22.0 ],
+				"id" : "obj-1",
+				"numinlets" : 6
+			}
+
+		}
+ ],
+	"lines" : [ 		{
+			"patchline" : 			{
+				"source" : [ "obj-6", 0 ],
+				"destination" : [ "obj-1", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-21", 0 ],
+				"destination" : [ "obj-6", 4 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-8", 0 ],
+				"destination" : [ "obj-6", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-7", 0 ],
+				"destination" : [ "obj-8", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-13", 0 ],
+				"destination" : [ "obj-8", 1 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-15", 0 ],
+				"destination" : [ "obj-5", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-2", 0 ],
+				"destination" : [ "obj-5", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-3", 0 ],
+				"destination" : [ "obj-5", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-4", 0 ],
+				"destination" : [ "obj-5", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-9", 0 ],
+				"destination" : [ "obj-5", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-25", 0 ],
+				"destination" : [ "obj-7", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-1", 4 ],
+				"destination" : [ "obj-9", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-1", 3 ],
+				"destination" : [ "obj-4", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-1", 2 ],
+				"destination" : [ "obj-3", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-1", 1 ],
+				"destination" : [ "obj-2", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-1", 0 ],
+				"destination" : [ "obj-15", 0 ]
+			}
+
+		}
+ ],
+	"appversion" : 	{
+		"major" : 8,
+		"minor" : 1,
+		"revision" : 2,
+		"architecture" : "x64",
+		"modernui" : 1
+	}
+,
+	"classnamespace" : "box"
+}
