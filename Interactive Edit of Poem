@@ -1,0 +1,529 @@
+{
+	"boxes" : [ 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "= 1 2 3 4 5 on keyboard",
+				"id" : "obj-36",
+				"patching_rect" : [ 175.0, 575.599999904632568, 150.0, 20.0 ],
+				"numoutlets" : 0,
+				"numinlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "keyboard interactivity",
+				"id" : "obj-27",
+				"patching_rect" : [ 137.999995529651642, 533.0, 150.0, 20.0 ],
+				"numoutlets" : 0,
+				"numinlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "By implementing a more controlled environment and allowing it to be much more controlled, it creates a sense of a more genuine experience.\n\nThe user gets to decide what advice they want at their time of need. ",
+				"linecount" : 10,
+				"id" : "obj-24",
+				"patching_rect" : [ 926.0, 624.999999523162842, 150.0, 144.0 ],
+				"numoutlets" : 0,
+				"numinlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "In the previous iteration of this project, the advice was given randomly based on a number generator. ",
+				"linecount" : 5,
+				"id" : "obj-22",
+				"patching_rect" : [ 336.0, 55.0, 150.0, 75.0 ],
+				"numoutlets" : 0,
+				"numinlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Surround yourself with people who care about you.",
+				"linecount" : 3,
+				"presentation_linecount" : 3,
+				"id" : "obj-11",
+				"patching_rect" : [ 762.5, 623.999999523162842, 107.0, 50.0 ],
+				"numoutlets" : 1,
+				"fontsize" : 12.0,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Don't put things off for too long.",
+				"id" : "obj-12",
+				"patching_rect" : [ 585.5, 623.999999523162842, 175.0, 22.0 ],
+				"numoutlets" : 1,
+				"fontsize" : 12.0,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Enjoy the little things in your everyday.",
+				"id" : "obj-14",
+				"patching_rect" : [ 371.5, 623.999999523162842, 212.0, 22.0 ],
+				"numoutlets" : 1,
+				"fontsize" : 12.0,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Give yourself more credit.",
+				"id" : "obj-16",
+				"patching_rect" : [ 224.799996614456177, 623.999999523162842, 145.0, 22.0 ],
+				"numoutlets" : 1,
+				"fontsize" : 12.0,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "print Here_is_some_quick_advice:",
+				"id" : "obj-17",
+				"patching_rect" : [ 50.399994015693665, 814.40000182390213, 192.0, 22.0 ],
+				"numoutlets" : 0,
+				"fontname" : "Arial",
+				"numinlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Try and relax. Life is too short.",
+				"id" : "obj-18",
+				"patching_rect" : [ 50.399994015693665, 623.999999523162842, 169.0, 22.0 ],
+				"numoutlets" : 1,
+				"fontsize" : 12.0,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "sel 49 50 51 52 53",
+				"id" : "obj-19",
+				"patching_rect" : [ 59.399994254112244, 575.599999904632568, 107.0, 22.0 ],
+				"numoutlets" : 6,
+				"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
+				"numinlets" : 6
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "key",
+				"id" : "obj-10",
+				"patching_rect" : [ 60.0, 533.0, 50.5, 22.0 ],
+				"numoutlets" : 4,
+				"outlettype" : [ "int", "int", "int", "int" ],
+				"numinlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Surround yourself with people who care about you.",
+				"linecount" : 3,
+				"id" : "obj-9",
+				"patching_rect" : [ 775.5, 270.999999523162842, 107.0, 50.0 ],
+				"numoutlets" : 1,
+				"fontsize" : 12.0,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Don't put things off for too long.",
+				"id" : "obj-4",
+				"patching_rect" : [ 598.5, 270.999999523162842, 175.0, 22.0 ],
+				"numoutlets" : 1,
+				"fontsize" : 12.0,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Enjoy the little things in your everyday.",
+				"id" : "obj-3",
+				"patching_rect" : [ 384.5, 270.999999523162842, 212.0, 22.0 ],
+				"numoutlets" : 1,
+				"fontsize" : 12.0,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Give yourself more credit.",
+				"id" : "obj-2",
+				"patching_rect" : [ 237.799996614456177, 270.999999523162842, 145.0, 22.0 ],
+				"numoutlets" : 1,
+				"fontsize" : 12.0,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "random 5",
+				"id" : "obj-21",
+				"patching_rect" : [ 228.199997901916504, 134.199999928474426, 59.0, 22.0 ],
+				"numoutlets" : 1,
+				"outlettype" : [ "int" ],
+				"fontname" : "Arial",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "counter 2 1 5",
+				"id" : "obj-6",
+				"patching_rect" : [ 72.399994254112244, 182.599999308586121, 79.0, 22.0 ],
+				"numoutlets" : 4,
+				"fontsize" : 12.0,
+				"outlettype" : [ "int", "", "", "int" ],
+				"fontname" : "Arial",
+				"numinlets" : 5
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "number",
+				"id" : "obj-13",
+				"patching_rect" : [ 137.999995529651642, 58.19999635219574, 53.0, 22.0 ],
+				"numoutlets" : 2,
+				"fontsize" : 12.0,
+				"outlettype" : [ "", "bang" ],
+				"parameter_enable" : 0,
+				"fontname" : "Arial",
+				"numinlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "print Here_is_some_quick_advice:",
+				"id" : "obj-5",
+				"patching_rect" : [ 63.399994015693665, 461.40000182390213, 192.0, 22.0 ],
+				"numoutlets" : 0,
+				"fontname" : "Arial",
+				"numinlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "metro 3000",
+				"id" : "obj-8",
+				"patching_rect" : [ 72.399999856948853, 134.199999928474426, 69.0, 22.0 ],
+				"numoutlets" : 1,
+				"outlettype" : [ "bang" ],
+				"fontname" : "Arial",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "Try and relax. Life is too short.",
+				"id" : "obj-15",
+				"patching_rect" : [ 63.399994015693665, 270.999999523162842, 169.0, 22.0 ],
+				"numoutlets" : 1,
+				"fontsize" : 12.0,
+				"outlettype" : [ "" ],
+				"fontname" : "Arial",
+				"numinlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "button",
+				"id" : "obj-25",
+				"patching_rect" : [ 63.399994015693665, 78.999998927116394, 24.0, 24.0 ],
+				"numoutlets" : 1,
+				"outlettype" : [ "bang" ],
+				"parameter_enable" : 0,
+				"numinlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "toggle",
+				"id" : "obj-7",
+				"patching_rect" : [ 23.399994850158691, 137.800000786781311, 24.0, 24.0 ],
+				"numoutlets" : 1,
+				"outlettype" : [ "int" ],
+				"parameter_enable" : 0,
+				"numinlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "sel 1 2 3 4 5",
+				"id" : "obj-1",
+				"patching_rect" : [ 72.399994254112244, 222.599999904632568, 74.0, 22.0 ],
+				"numoutlets" : 6,
+				"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
+				"numinlets" : 6
+			}
+
+		}
+ ],
+	"lines" : [ 		{
+			"patchline" : 			{
+				"source" : [ "obj-19", 0 ],
+				"destination" : [ "obj-18", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-19", 1 ],
+				"destination" : [ "obj-16", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-19", 2 ],
+				"destination" : [ "obj-14", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-19", 3 ],
+				"destination" : [ "obj-12", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-19", 4 ],
+				"destination" : [ "obj-11", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-10", 0 ],
+				"destination" : [ "obj-19", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-18", 0 ],
+				"destination" : [ "obj-17", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-16", 0 ],
+				"destination" : [ "obj-17", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-14", 0 ],
+				"destination" : [ "obj-17", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-12", 0 ],
+				"destination" : [ "obj-17", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-11", 0 ],
+				"destination" : [ "obj-17", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-1", 0 ],
+				"destination" : [ "obj-15", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-1", 1 ],
+				"destination" : [ "obj-2", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-1", 2 ],
+				"destination" : [ "obj-3", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-1", 3 ],
+				"destination" : [ "obj-4", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-1", 4 ],
+				"destination" : [ "obj-9", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-25", 0 ],
+				"destination" : [ "obj-7", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-9", 0 ],
+				"destination" : [ "obj-5", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-4", 0 ],
+				"destination" : [ "obj-5", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-3", 0 ],
+				"destination" : [ "obj-5", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-2", 0 ],
+				"destination" : [ "obj-5", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-15", 0 ],
+				"destination" : [ "obj-5", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-13", 0 ],
+				"destination" : [ "obj-8", 1 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-7", 0 ],
+				"destination" : [ "obj-8", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-8", 0 ],
+				"destination" : [ "obj-6", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-21", 0 ],
+				"destination" : [ "obj-6", 4 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-6", 0 ],
+				"destination" : [ "obj-1", 0 ]
+			}
+
+		}
+ ],
+	"appversion" : 	{
+		"major" : 8,
+		"minor" : 1,
+		"revision" : 3,
+		"architecture" : "x64",
+		"modernui" : 1
+	}
+,
+	"classnamespace" : "box"
+}
