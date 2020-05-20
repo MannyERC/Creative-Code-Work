@@ -1,0 +1,2349 @@
+{
+	"boxes" : [ 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "These packages contain the same code as shown here, just neatly stored away to make the code easier to look at.",
+				"linecount" : 5,
+				"id" : "obj-87",
+				"patching_rect" : [ 1172.0, 237.5, 150.0, 75.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Finally, the video plays on the left, allowing the user to mess with the colors while they can also control the volume of the song above and the intensity of the audio on the right.",
+				"linecount" : 3,
+				"id" : "obj-85",
+				"patching_rect" : [ 459.0, 725.0, 410.0, 48.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "This effect allows the user to control the colors the videos have when displayed",
+				"linecount" : 4,
+				"id" : "obj-82",
+				"patching_rect" : [ 498.0, 523.0, 150.0, 62.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "This section allows the audio to be displayed in a visual setting",
+				"linecount" : 3,
+				"id" : "obj-80",
+				"patching_rect" : [ 976.0, 545.0, 150.0, 48.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "This controls the audio input for each song that plays",
+				"linecount" : 3,
+				"id" : "obj-76",
+				"patching_rect" : [ 709.0, 523.0, 150.0, 48.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Ensure this is on",
+				"id" : "obj-72",
+				"patching_rect" : [ 917.0, 366.0, 150.0, 20.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "The numbers will trigger the song associated with the category",
+				"linecount" : 3,
+				"id" : "obj-62",
+				"patching_rect" : [ 689.0, 321.0, 150.0, 48.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "This allows the selected number to cycle to the video attached to it",
+				"linecount" : 3,
+				"id" : "obj-60",
+				"patching_rect" : [ 512.0, 306.0, 150.0, 48.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Cycles through a random number between 0 and 4",
+				"linecount" : 2,
+				"id" : "obj-58",
+				"patching_rect" : [ 108.0, 182.0, 150.0, 34.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Allows the usage of the 1, 2, and 3 key ",
+				"linecount" : 2,
+				"id" : "obj-50",
+				"patching_rect" : [ 94.0, 19.0, 150.0, 34.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Instructions:\n1) Ensure that the volume is set to the middle or low range as to not hurt your ears\n2) Using your keyboard, press the 1, 2 or 3 key\n3) Watch the GIF fully. You can use the Rainbow affects near the bottom to change the outlook of the GIF as a whole. At the same time, you will see the intensity of the song that you hear play alongside it.\n4) Ensure that all the songs and videos finish before pressing the key again",
+				"linecount" : 10,
+				"id" : "obj-77",
+				"patching_rect" : [ 968.0, 47.0, 341.0, 144.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Uses the groups and meets the following requirements: \n-Group 5: Objects for visualizing sound (jit.catch~ and jit.graph) + an effect\n-Group 4: An object for video playback (jit.movie, jit.movie~) + an effect \n-Interactivity\n-At least 2 random objects",
+				"linecount" : 5,
+				"id" : "obj-16",
+				"patching_rect" : [ 1408.0, 125.0, 413.0, 75.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "Project Title: The Spectrum of Gaming Version 2\n\nGoal: This updated project follows the same theme as my previous one: To show the user the wide variety of games that exist. This time, I wish to use music choices that allow the user to experience the emotions they might feel while playing these games. ",
+				"linecount" : 6,
+				"id" : "obj-47",
+				"patching_rect" : [ 1408.0, 29.0, 417.0, 89.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "p dark games",
+				"id" : "obj-46",
+				"outlettype" : [ "jit_matrix", "signal", "signal" ],
+				"patching_rect" : [ 1320.0, 334.0, 81.0, 22.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 3,
+				"patcher" : 				{
+					"fileversion" : 1,
+					"appversion" : 					{
+						"major" : 8,
+						"minor" : 1,
+						"revision" : 3,
+						"architecture" : "x64",
+						"modernui" : 1
+					}
+,
+					"classnamespace" : "box",
+					"rect" : [ 26.0, 85.0, 1852.0, 929.0 ],
+					"bglocked" : 0,
+					"openinpresentation" : 0,
+					"default_fontsize" : 12.0,
+					"default_fontface" : 0,
+					"default_fontname" : "Arial",
+					"gridonopen" : 1,
+					"gridsize" : [ 15.0, 15.0 ],
+					"gridsnaponopen" : 1,
+					"objectsnaponopen" : 1,
+					"statusbarvisible" : 2,
+					"toolbarvisible" : 1,
+					"lefttoolbarpinned" : 0,
+					"toptoolbarpinned" : 0,
+					"righttoolbarpinned" : 0,
+					"bottomtoolbarpinned" : 0,
+					"toolbars_unpinned_last_save" : 0,
+					"tallnewobj" : 0,
+					"boxanimatetime" : 200,
+					"enablehscroll" : 1,
+					"enablevscroll" : 1,
+					"devicewidth" : 0.0,
+					"description" : "",
+					"digest" : "",
+					"tags" : "",
+					"style" : "",
+					"subpatcher_template" : "",
+					"boxes" : [ 						{
+							"box" : 							{
+								"maxclass" : "outlet",
+								"id" : "obj-6",
+								"patching_rect" : [ 666.0, 808.0, 30.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 0,
+								"comment" : "",
+								"index" : 3
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "outlet",
+								"id" : "obj-4",
+								"patching_rect" : [ 499.566663503646851, 817.0, 30.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 0,
+								"comment" : "",
+								"index" : 2
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "playlist~",
+								"id" : "obj-11",
+								"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+								"patching_rect" : [ 984.0, 451.0, 150.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 5,
+								"data" : 								{
+									"clips" : [ 										{
+											"absolutepath" : "Intense Epic Music -Battle of Gods-.mp3",
+											"filename" : "Intense Epic Music -Battle of Gods-.mp3",
+											"filekind" : "audiofile",
+											"selection" : [ 0.038461538461538, 0.105769230769231 ],
+											"loop" : 0,
+											"content_state" : 											{
+												"formant" : [ 1.0 ],
+												"originallength" : [ 0.0, "ticks" ],
+												"quality" : [ "basic" ],
+												"originallengthms" : [ 0.0 ],
+												"originaltempo" : [ 120.0 ],
+												"speed" : [ 1.0 ],
+												"basictuning" : [ 440 ],
+												"pitchshift" : [ 1.0 ],
+												"pitchcorrection" : [ 0 ],
+												"followglobaltempo" : [ 0 ],
+												"slurtime" : [ 0.0 ],
+												"timestretch" : [ 0 ],
+												"mode" : [ "basic" ],
+												"formantcorrection" : [ 0 ]
+											}
+
+										}
+ ]
+								}
+
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "ezdac~",
+								"id" : "obj-1",
+								"patching_rect" : [ 979.0, 724.00000011920929, 45.0, 45.0 ],
+								"numinlets" : 2,
+								"numoutlets" : 0
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "live.gain~",
+								"varname" : "live.gain~",
+								"id" : "obj-5",
+								"outlettype" : [ "signal", "signal", "", "float", "list" ],
+								"patching_rect" : [ 979.0, 544.00000011920929, 48.0, 136.0 ],
+								"lastchannelcount" : 0,
+								"parameter_enable" : 1,
+								"numinlets" : 2,
+								"numoutlets" : 5,
+								"saved_attribute_attributes" : 								{
+									"valueof" : 									{
+										"parameter_type" : 0,
+										"parameter_unitstyle" : 4,
+										"parameter_mmin" : -70.0,
+										"parameter_longname" : "live.gain~[1]",
+										"parameter_mmax" : 6.0,
+										"parameter_shortname" : "live.gain~"
+									}
+
+								}
+
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "jit.playlist",
+								"id" : "obj-70",
+								"outlettype" : [ "jit_matrix", "", "dictionary" ],
+								"patching_rect" : [ 439.566663503646851, 487.0, 150.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 3,
+								"data" : 								{
+									"clips" : [ 										{
+											"absolutepath" : "RE52.mp4",
+											"filename" : "RE52.mp4",
+											"filekind" : "moviefile",
+											"loop" : 0,
+											"content_state" : 											{
+												"outputmode" : [ 1 ],
+												"out_name" : [ "u206000944" ],
+												"dim" : [ 1, 1 ],
+												"usesrcrect" : [ 0 ],
+												"automatic" : [ 0 ],
+												"unique" : [ 0 ],
+												"drawto" : [ "" ],
+												"interp" : [ 0 ],
+												"time_secs" : [ 0.0 ],
+												"srcrect" : [ 0, 0, 1, 1 ],
+												"duration" : [ 0 ],
+												"looppoints" : [ 0, 0 ],
+												"framecount" : [ 0 ],
+												"fps" : [ 0.0 ],
+												"moviefile" : [ "" ],
+												"output_texture" : [ 0 ],
+												"texture_name" : [ "u608000942" ],
+												"rate" : [ 1.0 ],
+												"usedstrect" : [ 0 ],
+												"vol" : [ 1.0 ],
+												"loopend" : [ 0 ],
+												"framereport" : [ 0 ],
+												"cache_size" : [ 0.100000001490116 ],
+												"looppoints_secs" : [ 0.0, 0.0 ],
+												"timescale" : [ 600 ],
+												"autostart" : [ 1 ],
+												"colormode" : [ "argb" ],
+												"position" : [ 0.0 ],
+												"loopstart" : [ 0 ],
+												"time" : [ 0 ],
+												"dstrect" : [ 0, 0, 1, 1 ],
+												"time_ms" : [ 0 ],
+												"loopreport" : [ 0 ],
+												"adapt" : [ 1 ],
+												"looppoints_ms" : [ 0, 0 ],
+												"engine" : [ "viddll" ]
+											}
+
+										}
+ ]
+								}
+
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "jit.playlist",
+								"id" : "obj-68",
+								"outlettype" : [ "jit_matrix", "", "dictionary" ],
+								"patching_rect" : [ 629.0, 487.0, 150.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 3,
+								"data" : 								{
+									"clips" : [ 										{
+											"absolutepath" : "MK2.mp4",
+											"filename" : "MK2.mp4",
+											"filekind" : "moviefile",
+											"selection" : [ 0.0, 1.0 ],
+											"loop" : 0,
+											"content_state" : 											{
+												"outputmode" : [ 1 ],
+												"out_name" : [ "u206000944" ],
+												"dim" : [ 1, 1 ],
+												"usesrcrect" : [ 0 ],
+												"automatic" : [ 0 ],
+												"unique" : [ 0 ],
+												"drawto" : [ "" ],
+												"interp" : [ 0 ],
+												"time_secs" : [ 0.0 ],
+												"srcrect" : [ 0, 0, 1, 1 ],
+												"duration" : [ 0 ],
+												"looppoints" : [ 0, 0 ],
+												"framecount" : [ 0 ],
+												"fps" : [ 0.0 ],
+												"moviefile" : [ "" ],
+												"output_texture" : [ 0 ],
+												"texture_name" : [ "u608000942" ],
+												"rate" : [ 1.0 ],
+												"usedstrect" : [ 0 ],
+												"vol" : [ 1.0 ],
+												"loopend" : [ 0 ],
+												"framereport" : [ 0 ],
+												"cache_size" : [ 0.100000001490116 ],
+												"looppoints_secs" : [ 0.0, 0.0 ],
+												"timescale" : [ 600 ],
+												"autostart" : [ 1 ],
+												"colormode" : [ "argb" ],
+												"position" : [ 0.0 ],
+												"loopstart" : [ 0 ],
+												"time" : [ 0 ],
+												"dstrect" : [ 0, 0, 1, 1 ],
+												"time_ms" : [ 0 ],
+												"loopreport" : [ 0 ],
+												"adapt" : [ 1 ],
+												"looppoints_ms" : [ 0, 0 ],
+												"engine" : [ "viddll" ]
+											}
+
+										}
+ ]
+								}
+
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "jit.playlist",
+								"id" : "obj-62",
+								"outlettype" : [ "jit_matrix", "", "dictionary" ],
+								"patching_rect" : [ 262.316663503646851, 475.0, 150.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 3,
+								"data" : 								{
+									"clips" : [ 										{
+											"absolutepath" : "COD.mp4",
+											"filename" : "COD.mp4",
+											"filekind" : "moviefile",
+											"loop" : 0,
+											"content_state" : 											{
+												"outputmode" : [ 1 ],
+												"out_name" : [ "u206000944" ],
+												"dim" : [ 1, 1 ],
+												"usesrcrect" : [ 0 ],
+												"automatic" : [ 0 ],
+												"unique" : [ 0 ],
+												"drawto" : [ "" ],
+												"interp" : [ 0 ],
+												"time_secs" : [ 0.0 ],
+												"srcrect" : [ 0, 0, 1, 1 ],
+												"duration" : [ 0 ],
+												"looppoints" : [ 0, 0 ],
+												"framecount" : [ 0 ],
+												"fps" : [ 0.0 ],
+												"moviefile" : [ "" ],
+												"output_texture" : [ 0 ],
+												"texture_name" : [ "u608000942" ],
+												"rate" : [ 1.0 ],
+												"usedstrect" : [ 0 ],
+												"vol" : [ 1.0 ],
+												"loopend" : [ 0 ],
+												"framereport" : [ 0 ],
+												"cache_size" : [ 0.100000001490116 ],
+												"looppoints_secs" : [ 0.0, 0.0 ],
+												"timescale" : [ 600 ],
+												"autostart" : [ 1 ],
+												"colormode" : [ "argb" ],
+												"position" : [ 0.0 ],
+												"loopstart" : [ 0 ],
+												"time" : [ 0 ],
+												"dstrect" : [ 0, 0, 1, 1 ],
+												"time_ms" : [ 0 ],
+												"loopreport" : [ 0 ],
+												"adapt" : [ 1 ],
+												"looppoints_ms" : [ 0, 0 ],
+												"engine" : [ "viddll" ]
+											}
+
+										}
+ ]
+								}
+
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "jit.playlist",
+								"id" : "obj-60",
+								"outlettype" : [ "jit_matrix", "", "dictionary" ],
+								"patching_rect" : [ 80.166669249534607, 487.0, 150.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 3,
+								"data" : 								{
+									"clips" : [ 										{
+											"absolutepath" : "Doom.mp4",
+											"filename" : "Doom.mp4",
+											"filekind" : "moviefile",
+											"loop" : 0,
+											"content_state" : 											{
+												"outputmode" : [ 1 ],
+												"out_name" : [ "u206000944" ],
+												"dim" : [ 1, 1 ],
+												"usesrcrect" : [ 0 ],
+												"automatic" : [ 0 ],
+												"unique" : [ 0 ],
+												"drawto" : [ "" ],
+												"interp" : [ 0 ],
+												"time_secs" : [ 0.0 ],
+												"srcrect" : [ 0, 0, 1, 1 ],
+												"duration" : [ 0 ],
+												"looppoints" : [ 0, 0 ],
+												"framecount" : [ 0 ],
+												"fps" : [ 0.0 ],
+												"moviefile" : [ "" ],
+												"output_texture" : [ 0 ],
+												"texture_name" : [ "u608000942" ],
+												"rate" : [ 1.0 ],
+												"usedstrect" : [ 0 ],
+												"vol" : [ 1.0 ],
+												"loopend" : [ 0 ],
+												"framereport" : [ 0 ],
+												"cache_size" : [ 0.100000001490116 ],
+												"looppoints_secs" : [ 0.0, 0.0 ],
+												"timescale" : [ 600 ],
+												"autostart" : [ 1 ],
+												"colormode" : [ "argb" ],
+												"position" : [ 0.0 ],
+												"loopstart" : [ 0 ],
+												"time" : [ 0 ],
+												"dstrect" : [ 0, 0, 1, 1 ],
+												"time_ms" : [ 0 ],
+												"loopreport" : [ 0 ],
+												"adapt" : [ 1 ],
+												"looppoints_ms" : [ 0, 0 ],
+												"engine" : [ "viddll" ]
+											}
+
+										}
+ ]
+								}
+
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "newobj",
+								"text" : "urn-jb 5",
+								"id" : "obj-16",
+								"outlettype" : [ "int" ],
+								"patching_rect" : [ 137.666669249534607, 172.0, 49.0, 22.0 ],
+								"numinlets" : 2,
+								"numoutlets" : 1
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "outlet",
+								"id" : "obj-3",
+								"patching_rect" : [ 166.666669249534607, 793.0, 30.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 0,
+								"comment" : "",
+								"index" : 1
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "newobj",
+								"text" : "if $i1 == 4 then 1",
+								"id" : "obj-56",
+								"outlettype" : [ "" ],
+								"patching_rect" : [ 487.566663503646851, 361.00000011920929, 98.0, 22.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 1
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "newobj",
+								"text" : "if $i1 == 3 then 1",
+								"id" : "obj-55",
+								"outlettype" : [ "" ],
+								"patching_rect" : [ 362.316663503646851, 367.00000011920929, 98.0, 22.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 1
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "newobj",
+								"text" : "if $i1 == 2 then 1",
+								"id" : "obj-54",
+								"outlettype" : [ "" ],
+								"patching_rect" : [ 257.216665089130402, 367.00000011920929, 98.0, 22.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 1
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "newobj",
+								"text" : "if $i1 == 1 then 1",
+								"id" : "obj-51",
+								"outlettype" : [ "" ],
+								"patching_rect" : [ 142.316663503646851, 367.00000011920929, 98.0, 22.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 1
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "number",
+								"id" : "obj-32",
+								"outlettype" : [ "", "bang" ],
+								"patching_rect" : [ 137.666669249534607, 266.00000011920929, 50.0, 22.0 ],
+								"parameter_enable" : 0,
+								"numinlets" : 1,
+								"numoutlets" : 2
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "inlet",
+								"id" : "obj-2",
+								"outlettype" : [ "bang" ],
+								"patching_rect" : [ 147.666669249534607, 85.0, 30.0, 30.0 ],
+								"numinlets" : 0,
+								"numoutlets" : 1,
+								"comment" : "",
+								"index" : 1
+							}
+
+						}
+ ],
+					"lines" : [ 						{
+							"patchline" : 							{
+								"source" : [ "obj-70", 0 ],
+								"destination" : [ "obj-3", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-68", 0 ],
+								"destination" : [ "obj-3", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-62", 0 ],
+								"destination" : [ "obj-3", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-60", 0 ],
+								"destination" : [ "obj-3", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-56", 0 ],
+								"destination" : [ "obj-68", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-56", 0 ],
+								"destination" : [ "obj-11", 0 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-55", 0 ],
+								"destination" : [ "obj-70", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-55", 0 ],
+								"destination" : [ "obj-11", 0 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-54", 0 ],
+								"destination" : [ "obj-62", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-54", 0 ],
+								"destination" : [ "obj-11", 0 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-51", 0 ],
+								"destination" : [ "obj-60", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-51", 0 ],
+								"destination" : [ "obj-11", 0 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-5", 0 ],
+								"destination" : [ "obj-1", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-5", 1 ],
+								"destination" : [ "obj-1", 1 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-32", 0 ],
+								"destination" : [ "obj-56", 0 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-32", 0 ],
+								"destination" : [ "obj-55", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-32", 0 ],
+								"destination" : [ "obj-54", 0 ],
+								"order" : 2
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-32", 0 ],
+								"destination" : [ "obj-51", 0 ],
+								"order" : 3
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-2", 0 ],
+								"destination" : [ "obj-16", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-16", 0 ],
+								"destination" : [ "obj-32", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-11", 0 ],
+								"destination" : [ "obj-6", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-11", 0 ],
+								"destination" : [ "obj-5", 0 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-11", 1 ],
+								"destination" : [ "obj-5", 1 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-11", 0 ],
+								"destination" : [ "obj-4", 0 ],
+								"order" : 2
+							}
+
+						}
+ ]
+				}
+,
+				"saved_object_attributes" : 				{
+					"description" : "",
+					"digest" : "",
+					"globalpatchername" : "",
+					"tags" : ""
+				}
+
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "p neutral games",
+				"id" : "obj-57",
+				"outlettype" : [ "jit_matrix", "signal", "signal" ],
+				"patching_rect" : [ 1076.0, 334.0, 95.0, 22.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 3,
+				"patcher" : 				{
+					"fileversion" : 1,
+					"appversion" : 					{
+						"major" : 8,
+						"minor" : 1,
+						"revision" : 3,
+						"architecture" : "x64",
+						"modernui" : 1
+					}
+,
+					"classnamespace" : "box",
+					"rect" : [ 26.0, 85.0, 1852.0, 929.0 ],
+					"bglocked" : 0,
+					"openinpresentation" : 0,
+					"default_fontsize" : 12.0,
+					"default_fontface" : 0,
+					"default_fontname" : "Arial",
+					"gridonopen" : 1,
+					"gridsize" : [ 15.0, 15.0 ],
+					"gridsnaponopen" : 1,
+					"objectsnaponopen" : 1,
+					"statusbarvisible" : 2,
+					"toolbarvisible" : 1,
+					"lefttoolbarpinned" : 0,
+					"toptoolbarpinned" : 0,
+					"righttoolbarpinned" : 0,
+					"bottomtoolbarpinned" : 0,
+					"toolbars_unpinned_last_save" : 0,
+					"tallnewobj" : 0,
+					"boxanimatetime" : 200,
+					"enablehscroll" : 1,
+					"enablevscroll" : 1,
+					"devicewidth" : 0.0,
+					"description" : "",
+					"digest" : "",
+					"tags" : "",
+					"style" : "",
+					"subpatcher_template" : "",
+					"boxes" : [ 						{
+							"box" : 							{
+								"maxclass" : "outlet",
+								"id" : "obj-17",
+								"patching_rect" : [ 696.0, 838.0, 30.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 0,
+								"comment" : "",
+								"index" : 3
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "outlet",
+								"id" : "obj-18",
+								"patching_rect" : [ 538.566663503646851, 834.0, 30.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 0,
+								"comment" : "",
+								"index" : 2
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "ezdac~",
+								"id" : "obj-1",
+								"patching_rect" : [ 1009.0, 754.00000011920929, 45.0, 45.0 ],
+								"numinlets" : 2,
+								"numoutlets" : 0
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "live.gain~",
+								"varname" : "live.gain~",
+								"id" : "obj-5",
+								"outlettype" : [ "signal", "signal", "", "float", "list" ],
+								"patching_rect" : [ 1009.0, 574.00000011920929, 48.0, 136.0 ],
+								"lastchannelcount" : 0,
+								"parameter_enable" : 1,
+								"numinlets" : 2,
+								"numoutlets" : 5,
+								"saved_attribute_attributes" : 								{
+									"valueof" : 									{
+										"parameter_type" : 0,
+										"parameter_unitstyle" : 4,
+										"parameter_mmin" : -70.0,
+										"parameter_longname" : "live.gain~[2]",
+										"parameter_mmax" : 6.0,
+										"parameter_shortname" : "live.gain~"
+									}
+
+								}
+
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "playlist~",
+								"id" : "obj-13",
+								"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+								"patching_rect" : [ 930.0, 484.0, 150.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 5,
+								"data" : 								{
+									"clips" : [ 										{
+											"absolutepath" : "Astronomia.mp3",
+											"filename" : "Astronomia.mp3",
+											"filekind" : "audiofile",
+											"selection" : [ 0.086538461538462, 0.134615384615385 ],
+											"loop" : 0,
+											"content_state" : 											{
+												"formant" : [ 1.0 ],
+												"originallength" : [ 0.0, "ticks" ],
+												"quality" : [ "basic" ],
+												"originallengthms" : [ 0.0 ],
+												"originaltempo" : [ 120.0 ],
+												"speed" : [ 1.0 ],
+												"basictuning" : [ 440 ],
+												"pitchshift" : [ 1.0 ],
+												"pitchcorrection" : [ 0 ],
+												"followglobaltempo" : [ 0 ],
+												"slurtime" : [ 0.0 ],
+												"timestretch" : [ 0 ],
+												"mode" : [ "basic" ],
+												"formantcorrection" : [ 0 ]
+											}
+
+										}
+ ]
+								}
+
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "jit.playlist",
+								"id" : "obj-10",
+								"outlettype" : [ "jit_matrix", "", "dictionary" ],
+								"patching_rect" : [ 622.0, 484.0, 150.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 3,
+								"data" : 								{
+									"clips" : [ 										{
+											"absolutepath" : "Tetris.mp4",
+											"filename" : "Tetris.mp4",
+											"filekind" : "moviefile",
+											"selection" : [ 0.0, 0.625 ],
+											"loop" : 0,
+											"content_state" : 											{
+												"outputmode" : [ 1 ],
+												"out_name" : [ "u206000944" ],
+												"dim" : [ 1, 1 ],
+												"usesrcrect" : [ 0 ],
+												"automatic" : [ 0 ],
+												"unique" : [ 0 ],
+												"drawto" : [ "" ],
+												"interp" : [ 0 ],
+												"time_secs" : [ 0.0 ],
+												"srcrect" : [ 0, 0, 1, 1 ],
+												"duration" : [ 0 ],
+												"looppoints" : [ 0, 0 ],
+												"framecount" : [ 0 ],
+												"fps" : [ 0.0 ],
+												"moviefile" : [ "" ],
+												"output_texture" : [ 0 ],
+												"texture_name" : [ "u608000942" ],
+												"rate" : [ 1.0 ],
+												"usedstrect" : [ 0 ],
+												"vol" : [ 1.0 ],
+												"loopend" : [ 0 ],
+												"framereport" : [ 0 ],
+												"cache_size" : [ 0.100000001490116 ],
+												"looppoints_secs" : [ 0.0, 0.0 ],
+												"timescale" : [ 600 ],
+												"autostart" : [ 1 ],
+												"colormode" : [ "argb" ],
+												"position" : [ 0.0 ],
+												"loopstart" : [ 0 ],
+												"time" : [ 0 ],
+												"dstrect" : [ 0, 0, 1, 1 ],
+												"time_ms" : [ 0 ],
+												"loopreport" : [ 0 ],
+												"adapt" : [ 1 ],
+												"looppoints_ms" : [ 0, 0 ],
+												"engine" : [ "viddll" ]
+											}
+
+										}
+ ]
+								}
+
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "jit.playlist",
+								"id" : "obj-8",
+								"outlettype" : [ "jit_matrix", "", "dictionary" ],
+								"patching_rect" : [ 429.0, 484.0, 150.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 3,
+								"data" : 								{
+									"clips" : [ 										{
+											"absolutepath" : "Racing.mp4",
+											"filename" : "Racing.mp4",
+											"filekind" : "moviefile",
+											"loop" : 0,
+											"content_state" : 											{
+												"outputmode" : [ 1 ],
+												"out_name" : [ "u206000944" ],
+												"dim" : [ 1, 1 ],
+												"usesrcrect" : [ 0 ],
+												"automatic" : [ 0 ],
+												"unique" : [ 0 ],
+												"drawto" : [ "" ],
+												"interp" : [ 0 ],
+												"time_secs" : [ 0.0 ],
+												"srcrect" : [ 0, 0, 1, 1 ],
+												"duration" : [ 0 ],
+												"looppoints" : [ 0, 0 ],
+												"framecount" : [ 0 ],
+												"fps" : [ 0.0 ],
+												"moviefile" : [ "" ],
+												"output_texture" : [ 0 ],
+												"texture_name" : [ "u608000942" ],
+												"rate" : [ 1.0 ],
+												"usedstrect" : [ 0 ],
+												"vol" : [ 1.0 ],
+												"loopend" : [ 0 ],
+												"framereport" : [ 0 ],
+												"cache_size" : [ 0.100000001490116 ],
+												"looppoints_secs" : [ 0.0, 0.0 ],
+												"timescale" : [ 600 ],
+												"autostart" : [ 1 ],
+												"colormode" : [ "argb" ],
+												"position" : [ 0.0 ],
+												"loopstart" : [ 0 ],
+												"time" : [ 0 ],
+												"dstrect" : [ 0, 0, 1, 1 ],
+												"time_ms" : [ 0 ],
+												"loopreport" : [ 0 ],
+												"adapt" : [ 1 ],
+												"looppoints_ms" : [ 0, 0 ],
+												"engine" : [ "viddll" ]
+											}
+
+										}
+ ]
+								}
+
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "jit.playlist",
+								"id" : "obj-6",
+								"outlettype" : [ "jit_matrix", "", "dictionary" ],
+								"patching_rect" : [ 247.0, 477.0, 150.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 3,
+								"data" : 								{
+									"clips" : [ 										{
+											"absolutepath" : "FIFA.mp4",
+											"filename" : "FIFA.mp4",
+											"filekind" : "moviefile",
+											"loop" : 0,
+											"content_state" : 											{
+												"outputmode" : [ 1 ],
+												"out_name" : [ "u206000944" ],
+												"dim" : [ 1, 1 ],
+												"usesrcrect" : [ 0 ],
+												"automatic" : [ 0 ],
+												"unique" : [ 0 ],
+												"drawto" : [ "" ],
+												"interp" : [ 0 ],
+												"time_secs" : [ 0.0 ],
+												"srcrect" : [ 0, 0, 1, 1 ],
+												"duration" : [ 0 ],
+												"looppoints" : [ 0, 0 ],
+												"framecount" : [ 0 ],
+												"fps" : [ 0.0 ],
+												"moviefile" : [ "" ],
+												"output_texture" : [ 0 ],
+												"texture_name" : [ "u608000942" ],
+												"rate" : [ 1.0 ],
+												"usedstrect" : [ 0 ],
+												"vol" : [ 1.0 ],
+												"loopend" : [ 0 ],
+												"framereport" : [ 0 ],
+												"cache_size" : [ 0.100000001490116 ],
+												"looppoints_secs" : [ 0.0, 0.0 ],
+												"timescale" : [ 600 ],
+												"autostart" : [ 1 ],
+												"colormode" : [ "argb" ],
+												"position" : [ 0.0 ],
+												"loopstart" : [ 0 ],
+												"time" : [ 0 ],
+												"dstrect" : [ 0, 0, 1, 1 ],
+												"time_ms" : [ 0 ],
+												"loopreport" : [ 0 ],
+												"adapt" : [ 1 ],
+												"looppoints_ms" : [ 0, 0 ],
+												"engine" : [ "viddll" ]
+											}
+
+										}
+ ]
+								}
+
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "jit.playlist",
+								"id" : "obj-4",
+								"outlettype" : [ "jit_matrix", "", "dictionary" ],
+								"patching_rect" : [ 56.316663503646851, 477.0, 150.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 3,
+								"data" : 								{
+									"clips" : [ 										{
+											"absolutepath" : "2K.mp4",
+											"filename" : "2K.mp4",
+											"filekind" : "moviefile",
+											"selection" : [ 0.0, 1.0 ],
+											"loop" : 0,
+											"content_state" : 											{
+												"outputmode" : [ 1 ],
+												"out_name" : [ "u206000944" ],
+												"dim" : [ 1, 1 ],
+												"usesrcrect" : [ 0 ],
+												"automatic" : [ 0 ],
+												"unique" : [ 0 ],
+												"drawto" : [ "" ],
+												"interp" : [ 0 ],
+												"time_secs" : [ 0.0 ],
+												"srcrect" : [ 0, 0, 1, 1 ],
+												"duration" : [ 0 ],
+												"looppoints" : [ 0, 0 ],
+												"framecount" : [ 0 ],
+												"fps" : [ 0.0 ],
+												"moviefile" : [ "" ],
+												"output_texture" : [ 0 ],
+												"texture_name" : [ "u608000942" ],
+												"rate" : [ 1.0 ],
+												"usedstrect" : [ 0 ],
+												"vol" : [ 1.0 ],
+												"loopend" : [ 0 ],
+												"framereport" : [ 0 ],
+												"cache_size" : [ 0.100000001490116 ],
+												"looppoints_secs" : [ 0.0, 0.0 ],
+												"timescale" : [ 600 ],
+												"autostart" : [ 1 ],
+												"colormode" : [ "argb" ],
+												"position" : [ 0.0 ],
+												"loopstart" : [ 0 ],
+												"time" : [ 0 ],
+												"dstrect" : [ 0, 0, 1, 1 ],
+												"time_ms" : [ 0 ],
+												"loopreport" : [ 0 ],
+												"adapt" : [ 1 ],
+												"looppoints_ms" : [ 0, 0 ],
+												"engine" : [ "viddll" ]
+											}
+
+										}
+ ]
+								}
+
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "newobj",
+								"text" : "urn-jb 5",
+								"id" : "obj-16",
+								"outlettype" : [ "int" ],
+								"patching_rect" : [ 137.666669249534607, 172.0, 49.0, 22.0 ],
+								"numinlets" : 2,
+								"numoutlets" : 1
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "outlet",
+								"id" : "obj-3",
+								"patching_rect" : [ 166.666669249534607, 793.0, 30.0, 30.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 0,
+								"comment" : "",
+								"index" : 1
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "newobj",
+								"text" : "if $i1 == 4 then 1",
+								"id" : "obj-56",
+								"outlettype" : [ "" ],
+								"patching_rect" : [ 500.566663503646851, 367.0, 98.0, 22.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 1
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "newobj",
+								"text" : "if $i1 == 3 then 1",
+								"id" : "obj-55",
+								"outlettype" : [ "" ],
+								"patching_rect" : [ 375.316663503646851, 367.00000011920929, 98.0, 22.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 1
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "newobj",
+								"text" : "if $i1 == 2 then 1",
+								"id" : "obj-54",
+								"outlettype" : [ "" ],
+								"patching_rect" : [ 257.216665089130402, 367.00000011920929, 98.0, 22.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 1
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "comment",
+								"text" : "A random function so that the gifs cycle between games",
+								"linecount" : 3,
+								"id" : "obj-25",
+								"patching_rect" : [ 368.149994254112244, 200.00000011920929, 150.0, 48.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 0
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "newobj",
+								"text" : "if $i1 == 1 then 1",
+								"id" : "obj-51",
+								"outlettype" : [ "" ],
+								"patching_rect" : [ 142.316663503646851, 367.00000011920929, 98.0, 22.0 ],
+								"numinlets" : 1,
+								"numoutlets" : 1
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "number",
+								"id" : "obj-32",
+								"outlettype" : [ "", "bang" ],
+								"patching_rect" : [ 137.666669249534607, 266.00000011920929, 50.0, 22.0 ],
+								"parameter_enable" : 0,
+								"numinlets" : 1,
+								"numoutlets" : 2
+							}
+
+						}
+, 						{
+							"box" : 							{
+								"maxclass" : "inlet",
+								"id" : "obj-2",
+								"outlettype" : [ "bang" ],
+								"patching_rect" : [ 147.666669249534607, 85.0, 30.0, 30.0 ],
+								"numinlets" : 0,
+								"numoutlets" : 1,
+								"comment" : "",
+								"index" : 1
+							}
+
+						}
+ ],
+					"lines" : [ 						{
+							"patchline" : 							{
+								"source" : [ "obj-8", 0 ],
+								"destination" : [ "obj-3", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-6", 0 ],
+								"destination" : [ "obj-3", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-56", 0 ],
+								"destination" : [ "obj-13", 0 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-56", 0 ],
+								"destination" : [ "obj-10", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-55", 0 ],
+								"destination" : [ "obj-8", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-55", 0 ],
+								"destination" : [ "obj-13", 0 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-54", 0 ],
+								"destination" : [ "obj-6", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-54", 0 ],
+								"destination" : [ "obj-13", 0 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-51", 0 ],
+								"destination" : [ "obj-4", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-51", 0 ],
+								"destination" : [ "obj-13", 0 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-5", 0 ],
+								"destination" : [ "obj-1", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-5", 1 ],
+								"destination" : [ "obj-1", 1 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-4", 0 ],
+								"destination" : [ "obj-3", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-32", 0 ],
+								"destination" : [ "obj-56", 0 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-32", 0 ],
+								"destination" : [ "obj-55", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-32", 0 ],
+								"destination" : [ "obj-54", 0 ],
+								"order" : 2
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-32", 0 ],
+								"destination" : [ "obj-51", 0 ],
+								"order" : 3
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-2", 0 ],
+								"destination" : [ "obj-16", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-16", 0 ],
+								"destination" : [ "obj-32", 0 ]
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-13", 0 ],
+								"destination" : [ "obj-5", 0 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-13", 1 ],
+								"destination" : [ "obj-5", 1 ],
+								"order" : 0
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-13", 0 ],
+								"destination" : [ "obj-18", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-13", 1 ],
+								"destination" : [ "obj-17", 0 ],
+								"order" : 1
+							}
+
+						}
+, 						{
+							"patchline" : 							{
+								"source" : [ "obj-10", 0 ],
+								"destination" : [ "obj-3", 0 ]
+							}
+
+						}
+ ]
+				}
+,
+				"saved_object_attributes" : 				{
+					"description" : "",
+					"digest" : "",
+					"globalpatchername" : "",
+					"tags" : ""
+				}
+
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## Create a dutone image ##",
+				"varname" : "2toner[1]",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"id" : "obj-95",
+				"outlettype" : [ "" ],
+				"patching_rect" : [ 260.0, 476.0, 228.0, 130.0 ],
+				"numinlets" : 9,
+				"name" : "vz.2tonr.maxpat",
+				"numoutlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "jit.pwindow",
+				"id" : "obj-42",
+				"outlettype" : [ "jit_matrix", "" ],
+				"patching_rect" : [ 45.900001585483551, 638.0, 402.199996829032898, 242.600001335144043 ],
+				"numinlets" : 1,
+				"numoutlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "jit.playlist",
+				"id" : "obj-75",
+				"outlettype" : [ "jit_matrix", "", "dictionary" ],
+				"patching_rect" : [ 482.0, 383.99999988079071, 150.0, 30.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 3,
+				"data" : 				{
+					"clips" : [ 						{
+							"absolutepath" : "Splatoon.mp4",
+							"filename" : "Splatoon.mp4",
+							"filekind" : "moviefile",
+							"loop" : 0,
+							"content_state" : 							{
+								"outputmode" : [ 1 ],
+								"out_name" : [ "u206000944" ],
+								"dim" : [ 1, 1 ],
+								"usesrcrect" : [ 0 ],
+								"automatic" : [ 0 ],
+								"unique" : [ 0 ],
+								"drawto" : [ "" ],
+								"interp" : [ 0 ],
+								"time_secs" : [ 0.0 ],
+								"srcrect" : [ 0, 0, 1, 1 ],
+								"duration" : [ 0 ],
+								"looppoints" : [ 0, 0 ],
+								"framecount" : [ 0 ],
+								"fps" : [ 0.0 ],
+								"moviefile" : [ "" ],
+								"output_texture" : [ 0 ],
+								"texture_name" : [ "u608000942" ],
+								"rate" : [ 1.0 ],
+								"usedstrect" : [ 0 ],
+								"vol" : [ 1.0 ],
+								"loopend" : [ 0 ],
+								"framereport" : [ 0 ],
+								"cache_size" : [ 0.100000001490116 ],
+								"looppoints_secs" : [ 0.0, 0.0 ],
+								"timescale" : [ 600 ],
+								"autostart" : [ 1 ],
+								"colormode" : [ "argb" ],
+								"position" : [ 0.0 ],
+								"loopstart" : [ 0 ],
+								"time" : [ 0 ],
+								"dstrect" : [ 0, 0, 1, 1 ],
+								"time_ms" : [ 0 ],
+								"loopreport" : [ 0 ],
+								"adapt" : [ 1 ],
+								"looppoints_ms" : [ 0, 0 ],
+								"engine" : [ "viddll" ]
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "jit.playlist",
+				"id" : "obj-73",
+				"outlettype" : [ "jit_matrix", "", "dictionary" ],
+				"patching_rect" : [ 326.0, 383.99999988079071, 150.0, 30.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 3,
+				"data" : 				{
+					"clips" : [ 						{
+							"absolutepath" : "Pokemon.mp4",
+							"filename" : "Pokemon.mp4",
+							"filekind" : "moviefile",
+							"loop" : 0,
+							"content_state" : 							{
+								"outputmode" : [ 1 ],
+								"out_name" : [ "u206000944" ],
+								"dim" : [ 1, 1 ],
+								"usesrcrect" : [ 0 ],
+								"automatic" : [ 0 ],
+								"unique" : [ 0 ],
+								"drawto" : [ "" ],
+								"interp" : [ 0 ],
+								"time_secs" : [ 0.0 ],
+								"srcrect" : [ 0, 0, 1, 1 ],
+								"duration" : [ 0 ],
+								"looppoints" : [ 0, 0 ],
+								"framecount" : [ 0 ],
+								"fps" : [ 0.0 ],
+								"moviefile" : [ "" ],
+								"output_texture" : [ 0 ],
+								"texture_name" : [ "u608000942" ],
+								"rate" : [ 1.0 ],
+								"usedstrect" : [ 0 ],
+								"vol" : [ 1.0 ],
+								"loopend" : [ 0 ],
+								"framereport" : [ 0 ],
+								"cache_size" : [ 0.100000001490116 ],
+								"looppoints_secs" : [ 0.0, 0.0 ],
+								"timescale" : [ 600 ],
+								"autostart" : [ 1 ],
+								"colormode" : [ "argb" ],
+								"position" : [ 0.0 ],
+								"loopstart" : [ 0 ],
+								"time" : [ 0 ],
+								"dstrect" : [ 0, 0, 1, 1 ],
+								"time_ms" : [ 0 ],
+								"loopreport" : [ 0 ],
+								"adapt" : [ 1 ],
+								"looppoints_ms" : [ 0, 0 ],
+								"engine" : [ "viddll" ]
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "jit.playlist",
+				"id" : "obj-71",
+				"outlettype" : [ "jit_matrix", "", "dictionary" ],
+				"patching_rect" : [ 172.0, 383.99999988079071, 150.0, 30.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 3,
+				"data" : 				{
+					"clips" : [ 						{
+							"absolutepath" : "Mario.mp4",
+							"filename" : "Mario.mp4",
+							"filekind" : "moviefile",
+							"loop" : 0,
+							"content_state" : 							{
+								"outputmode" : [ 1 ],
+								"out_name" : [ "u206000944" ],
+								"dim" : [ 1, 1 ],
+								"usesrcrect" : [ 0 ],
+								"automatic" : [ 0 ],
+								"unique" : [ 0 ],
+								"drawto" : [ "" ],
+								"interp" : [ 0 ],
+								"time_secs" : [ 0.0 ],
+								"srcrect" : [ 0, 0, 1, 1 ],
+								"duration" : [ 0 ],
+								"looppoints" : [ 0, 0 ],
+								"framecount" : [ 0 ],
+								"fps" : [ 0.0 ],
+								"moviefile" : [ "" ],
+								"output_texture" : [ 0 ],
+								"texture_name" : [ "u608000942" ],
+								"rate" : [ 1.0 ],
+								"usedstrect" : [ 0 ],
+								"vol" : [ 1.0 ],
+								"loopend" : [ 0 ],
+								"framereport" : [ 0 ],
+								"cache_size" : [ 0.100000001490116 ],
+								"looppoints_secs" : [ 0.0, 0.0 ],
+								"timescale" : [ 600 ],
+								"autostart" : [ 1 ],
+								"colormode" : [ "argb" ],
+								"position" : [ 0.0 ],
+								"loopstart" : [ 0 ],
+								"time" : [ 0 ],
+								"dstrect" : [ 0, 0, 1, 1 ],
+								"time_ms" : [ 0 ],
+								"loopreport" : [ 0 ],
+								"adapt" : [ 1 ],
+								"looppoints_ms" : [ 0, 0 ],
+								"engine" : [ "viddll" ]
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "jit.playlist",
+				"id" : "obj-69",
+				"outlettype" : [ "jit_matrix", "", "dictionary" ],
+				"patching_rect" : [ 18.399994254112244, 383.99999988079071, 150.0, 30.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 3,
+				"data" : 				{
+					"clips" : [ 						{
+							"absolutepath" : "Minecraft.mp4",
+							"filename" : "Minecraft.mp4",
+							"filekind" : "moviefile",
+							"loop" : 0,
+							"content_state" : 							{
+								"outputmode" : [ 1 ],
+								"out_name" : [ "u206000944" ],
+								"dim" : [ 1, 1 ],
+								"usesrcrect" : [ 0 ],
+								"automatic" : [ 0 ],
+								"unique" : [ 0 ],
+								"drawto" : [ "" ],
+								"interp" : [ 0 ],
+								"time_secs" : [ 0.0 ],
+								"srcrect" : [ 0, 0, 1, 1 ],
+								"duration" : [ 0 ],
+								"looppoints" : [ 0, 0 ],
+								"framecount" : [ 0 ],
+								"fps" : [ 0.0 ],
+								"moviefile" : [ "" ],
+								"output_texture" : [ 0 ],
+								"texture_name" : [ "u608000942" ],
+								"rate" : [ 1.0 ],
+								"usedstrect" : [ 0 ],
+								"vol" : [ 1.0 ],
+								"loopend" : [ 0 ],
+								"framereport" : [ 0 ],
+								"cache_size" : [ 0.100000001490116 ],
+								"looppoints_secs" : [ 0.0, 0.0 ],
+								"timescale" : [ 600 ],
+								"autostart" : [ 1 ],
+								"colormode" : [ "argb" ],
+								"position" : [ 0.0 ],
+								"loopstart" : [ 0 ],
+								"time" : [ 0 ],
+								"dstrect" : [ 0, 0, 1, 1 ],
+								"time_ms" : [ 0 ],
+								"loopreport" : [ 0 ],
+								"adapt" : [ 1 ],
+								"looppoints_ms" : [ 0, 0 ],
+								"engine" : [ "viddll" ]
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "if $i1 == 4 then 1",
+				"id" : "obj-56",
+				"outlettype" : [ "" ],
+				"patching_rect" : [ 393.900001585483551, 319.0, 98.0, 22.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "if $i1 == 3 then 1",
+				"id" : "obj-55",
+				"outlettype" : [ "" ],
+				"patching_rect" : [ 283.316663503646851, 319.0, 98.0, 22.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "if $i1 == 2 then 1",
+				"id" : "obj-54",
+				"outlettype" : [ "" ],
+				"patching_rect" : [ 163.216665089130402, 319.0, 98.0, 22.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "if $i1 == 1 then 1",
+				"id" : "obj-51",
+				"outlettype" : [ "" ],
+				"patching_rect" : [ 51.666669249534607, 319.0, 98.0, 22.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "number",
+				"id" : "obj-32",
+				"outlettype" : [ "", "bang" ],
+				"patching_rect" : [ 51.666669249534607, 235.0, 50.0, 22.0 ],
+				"parameter_enable" : 0,
+				"numinlets" : 1,
+				"numoutlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "urn-jb 5",
+				"id" : "obj-65",
+				"outlettype" : [ "int" ],
+				"patching_rect" : [ 44.666669249534607, 168.0, 49.0, 22.0 ],
+				"numinlets" : 2,
+				"numoutlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "sel 49 50 51",
+				"id" : "obj-19",
+				"outlettype" : [ "bang", "bang", "bang", "" ],
+				"patching_rect" : [ 18.399994254112244, 64.599999904632568, 74.0, 22.0 ],
+				"numinlets" : 4,
+				"numoutlets" : 4
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "key",
+				"id" : "obj-10",
+				"outlettype" : [ "int", "int", "int", "int" ],
+				"patching_rect" : [ 18.399994254112244, 19.0, 50.5, 22.0 ],
+				"numinlets" : 0,
+				"numoutlets" : 4
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "toggle",
+				"id" : "obj-9",
+				"outlettype" : [ "int" ],
+				"patching_rect" : [ 880.666669249534607, 364.0, 24.0, 24.0 ],
+				"parameter_enable" : 0,
+				"numinlets" : 1,
+				"numoutlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "qmetro 40",
+				"id" : "obj-8",
+				"outlettype" : [ "bang" ],
+				"patching_rect" : [ 880.666669249534607, 426.0, 63.0, 22.0 ],
+				"numinlets" : 2,
+				"numoutlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "jit.pwindow",
+				"id" : "obj-7",
+				"outlettype" : [ "jit_matrix", "" ],
+				"patching_rect" : [ 880.666669249534607, 638.0, 238.0, 216.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "attrui",
+				"id" : "obj-6",
+				"outlettype" : [ "" ],
+				"patching_rect" : [ 923.666669249534607, 482.0, 150.0, 22.0 ],
+				"attr" : "mode",
+				"numinlets" : 1,
+				"numoutlets" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "jit.catch~",
+				"id" : "obj-5",
+				"outlettype" : [ "jit_matrix", "" ],
+				"patching_rect" : [ 880.666669249534607, 533.0, 56.0, 22.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 2
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "ezdac~",
+				"id" : "obj-4",
+				"patching_rect" : [ 649.0, 665.0, 45.0, 45.0 ],
+				"numinlets" : 2,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "live.gain~",
+				"varname" : "live.gain~",
+				"id" : "obj-3",
+				"outlettype" : [ "signal", "signal", "", "float", "list" ],
+				"patching_rect" : [ 654.0, 487.0, 48.0, 136.0 ],
+				"lastchannelcount" : 0,
+				"parameter_enable" : 1,
+				"numinlets" : 2,
+				"numoutlets" : 5,
+				"saved_attribute_attributes" : 				{
+					"valueof" : 					{
+						"parameter_type" : 0,
+						"parameter_unitstyle" : 4,
+						"parameter_mmin" : -70.0,
+						"parameter_longname" : "live.gain~",
+						"parameter_mmax" : 6.0,
+						"parameter_shortname" : "live.gain~"
+					}
+
+				}
+
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "playlist~",
+				"id" : "obj-2",
+				"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+				"patching_rect" : [ 669.0, 384.0, 150.0, 30.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 5,
+				"data" : 				{
+					"clips" : [ 						{
+							"absolutepath" : "Happy Go Lucky Royalty Free Upbeat, Fun Stock Music.mp3",
+							"filename" : "Happy Go Lucky Royalty Free Upbeat, Fun Stock Music.mp3",
+							"filekind" : "audiofile",
+							"selection" : [ 0.076923076923077, 0.182692307692308 ],
+							"loop" : 0,
+							"content_state" : 							{
+								"formant" : [ 1.0 ],
+								"originallength" : [ 0.0, "ticks" ],
+								"quality" : [ "basic" ],
+								"originallengthms" : [ 0.0 ],
+								"originaltempo" : [ 120.0 ],
+								"speed" : [ 1.0 ],
+								"basictuning" : [ 440 ],
+								"pitchshift" : [ 1.0 ],
+								"pitchcorrection" : [ 0 ],
+								"followglobaltempo" : [ 0 ],
+								"slurtime" : [ 0.0 ],
+								"timestretch" : [ 0 ],
+								"mode" : [ "basic" ],
+								"formantcorrection" : [ 0 ]
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+ ],
+	"lines" : [ 		{
+			"patchline" : 			{
+				"source" : [ "obj-95", 0 ],
+				"destination" : [ "obj-42", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-9", 0 ],
+				"destination" : [ "obj-8", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-8", 0 ],
+				"destination" : [ "obj-5", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-75", 0 ],
+				"destination" : [ "obj-95", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-73", 0 ],
+				"destination" : [ "obj-95", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-71", 0 ],
+				"destination" : [ "obj-95", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-69", 0 ],
+				"destination" : [ "obj-95", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-65", 0 ],
+				"destination" : [ "obj-32", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-6", 0 ],
+				"destination" : [ "obj-5", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-57", 0 ],
+				"destination" : [ "obj-95", 0 ],
+				"midpoints" : [ 1085.5, 462.0, 269.5, 462.0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-57", 1 ],
+				"destination" : [ "obj-5", 0 ],
+				"midpoints" : [ 1123.5, 519.0, 890.166669249534607, 519.0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-57", 2 ],
+				"destination" : [ "obj-5", 0 ],
+				"midpoints" : [ 1161.5, 519.0, 890.166669249534607, 519.0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-56", 0 ],
+				"destination" : [ "obj-75", 0 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-56", 0 ],
+				"destination" : [ "obj-2", 0 ],
+				"midpoints" : [ 403.400001585483551, 369.0, 678.5, 369.0 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-55", 0 ],
+				"destination" : [ "obj-73", 0 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-55", 0 ],
+				"destination" : [ "obj-2", 0 ],
+				"midpoints" : [ 292.816663503646851, 369.0, 678.5, 369.0 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-54", 0 ],
+				"destination" : [ "obj-71", 0 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-54", 0 ],
+				"destination" : [ "obj-2", 0 ],
+				"midpoints" : [ 172.716665089130402, 369.0, 678.5, 369.0 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-51", 0 ],
+				"destination" : [ "obj-69", 0 ],
+				"midpoints" : [ 61.166669249534607, 369.0, 27.899994254112244, 369.0 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-51", 0 ],
+				"destination" : [ "obj-2", 0 ],
+				"midpoints" : [ 61.166669249534607, 369.0, 678.5, 369.0 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-5", 0 ],
+				"destination" : [ "obj-7", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-46", 0 ],
+				"destination" : [ "obj-95", 0 ],
+				"midpoints" : [ 1329.5, 462.0, 269.5, 462.0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-46", 1 ],
+				"destination" : [ "obj-5", 0 ],
+				"midpoints" : [ 1360.5, 519.0, 890.166669249534607, 519.0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-46", 2 ],
+				"destination" : [ "obj-5", 0 ],
+				"midpoints" : [ 1391.5, 519.0, 890.166669249534607, 519.0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-32", 0 ],
+				"destination" : [ "obj-56", 0 ],
+				"midpoints" : [ 61.166669249534607, 306.0, 403.400001585483551, 306.0 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-32", 0 ],
+				"destination" : [ "obj-55", 0 ],
+				"midpoints" : [ 61.166669249534607, 306.0, 292.816663503646851, 306.0 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-32", 0 ],
+				"destination" : [ "obj-54", 0 ],
+				"midpoints" : [ 61.166669249534607, 306.0, 172.716665089130402, 306.0 ],
+				"order" : 2
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-32", 0 ],
+				"destination" : [ "obj-51", 0 ],
+				"midpoints" : [ 61.166669249534607, 306.0, 61.166669249534607, 306.0 ],
+				"order" : 3
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-3", 0 ],
+				"destination" : [ "obj-4", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-3", 1 ],
+				"destination" : [ "obj-4", 1 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-2", 0 ],
+				"destination" : [ "obj-5", 0 ],
+				"midpoints" : [ 678.5, 474.0, 890.166669249534607, 474.0 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-2", 1 ],
+				"destination" : [ "obj-5", 0 ],
+				"midpoints" : [ 711.25, 474.0, 890.166669249534607, 474.0 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-2", 0 ],
+				"destination" : [ "obj-3", 0 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-2", 1 ],
+				"destination" : [ "obj-3", 1 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-19", 0 ],
+				"destination" : [ "obj-65", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-19", 1 ],
+				"destination" : [ "obj-57", 0 ],
+				"midpoints" : [ 46.233327587445572, 114.0, 954.0, 114.0, 954.0, 321.0, 1085.5, 321.0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-19", 2 ],
+				"destination" : [ "obj-46", 0 ],
+				"midpoints" : [ 64.566660920778901, 114.0, 954.0, 114.0, 954.0, 321.0, 1329.5, 321.0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-10", 0 ],
+				"destination" : [ "obj-19", 0 ]
+			}
+
+		}
+ ],
+	"appversion" : 	{
+		"major" : 8,
+		"minor" : 1,
+		"revision" : 3,
+		"architecture" : "x64",
+		"modernui" : 1
+	}
+,
+	"classnamespace" : "box"
+}
